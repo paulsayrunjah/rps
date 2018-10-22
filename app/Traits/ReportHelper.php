@@ -366,14 +366,6 @@ trait ReportHelper
                     "position" => $the_position . "/" . $con->count()
                 ];
             }
-
-
-            // \App\StudentReport::create([
-            //     "student_id" => $new_value["student_id"],
-            //     "clazz_id" => $clazz_id,
-            //     "term_id" => $term,
-            //     "full_report" => json_encode($new_value)
-            // ]);
     
         }
 
